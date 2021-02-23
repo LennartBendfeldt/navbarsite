@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<!--Title and website name-->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css">
+    <title>Lennart's Charlotte Restaurant WIN-ners</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="navtop">
+        <ul>
+            <li><a class="logo" href="index.html">Logo</a></li>
+            <li><a href="travelsite.html">Products</a></li>
+            <li><a href="top5restaurants.html">Music</a></li>
+            <li><a href="https://www.amazon.com/ref=nav_logo">Play</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Connect</a></li>
+            
+            <!-- Search BAR -->
+            <li>
+                <form> 
+                    <input type='text'>
+                    <button class="search"><img class="search-icon" src="images/Search-icon.png"></button>
+                </form>
+            </li>
+            <div class="rightside">
+                <a href="https://www.w3schools.com/">Sign In </a>
+                <span>/</span>
+                <a href="https://www.freecodecamp.org/">Dealer Location</a><br>
+                <a class = "view-cart" href="#connect">View Cart <img class = "cart-icon" src="images/shopping-cart-icon.png" alt="cart"></a>
+            </div>
+        </ul>
+    </div>
+    <!--Page header-->
+    <h1 class="pageheader">Lennart's Charlotte Restaurant WIN-ners</h1>
+    <p class="big-text">This site is for my top <b>five</b> favorite Charlotte restaurants!</p>
+
+    <!--Top 5 Restaurants list header-->
+    <h2 id="top5">Top 5</h2>
+    
+    <!--Top 5 restaurants list-->
+    <ul id="p1">
+        <li>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/18/8e/92/50/pinky-s-westside-grill.jpg" width="500">
+            <div><a href="https://www.eatatpinkys.com/" target="_blank">Pinky's Westside Grill</a></div>
+            <p>Pinky's Westside grill (twice featured on diners, drive-ins, and dives) is a casual bar and restaurant located in Charlotte slinging burgers, dogs, and beer.</p>
+        </li>
+        <li>
+            <img src="https://www.131-main.com/wp-content/uploads/2017/08/Slide-1.jpg" width="500">
+            <div><a href="https://www.131-main.com/" target="_blank">131 Main</a></div>
+            <p>131 Main delivers fresh, upscale food with a near-sultry atmosphere and extensive wine list.</p>
+        </li>
+        <li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjYFT_W83_lG4eyKxDJ0RfO9rqtt__42tO6g&usqp=CAU" width="500">
+            <div><a href="http://machupicchucharlotte.com/" target="_blank">Machu Picchu</a></div>
+            <p>Contrasting with it's outward appearance, Machu Picchu delivers comfortable and delivious Peruvian food in South Charlotte's Pineville neighborhood.</p>
+        </li>
+        <li>
+            <img src="https://www.waldhorn.us/wp-content/uploads/2014/04/IMG_4014-1-900x398.jpg" width="500">
+            <div><a href="https://www.waldhorn.us/" target="_blank">Waldhorn German Restaurant</a></div>
+            <p>An authentically German-owned restaurant located just minutes from another on my list.</p>
+        </li>
+        <li>
+            <img src="https://cdn.vox-cdn.com/thumbor/SaSKDXc8HkhCti3QyvhBLyCdfA4=/0x0:960x736/1200x900/filters:focal(404x292:556x444):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62831063/48406624_698933490507951_2089495950211940352_n.0.jpg" width="500">
+            <div><a href="https://haymakerclt.com/" target="_blank">Haymaker</a></div>
+            <p>Upscale class in an uptown highrise. Located across from the BB&T Ballpark.</p>
+        </li>
+    </ul>
+
+    <div>
+    <!--User input for interaction-->
+        <form>
+            <label for="name">Tell me your favorite restaurant in Charlotte: </label>
+            <input type="text" id="restaurant" name="restaurant"><br>
+            
+            <br><br>
+            <textarea id="whytho" name="whytho" rows="7" cols="50">
+                Tell me why it should be on this list!
+            </textarea>
+            <br><br>
+            <input type=submit value="Ok Go!">
+
+        </form>
+    </div>
+
+    <!--User survey-->
+    <label for="type">What is your favorite type of restaurant?</p>
+        <select id="type" name="type">
+            <option value="chinese">Chinese</option>
+            <option value="mexican">Mexican</option>
+            <option value="american" selected>American</option>
+            <option value="italian" selected>Italian</option>
+            <option value="german" selected>German</option>
+            <option value="japanese" selected>Japanese</option>
+        </select>
+
+</body>
+
+</html>
