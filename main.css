@@ -22,7 +22,7 @@ li {
   color: white;
   padding: 40px 20px 32px 20px;
   text-decoration: none;
-  font-size: 15px;
+  /* font-size: 15px; */
 }
 .rightside{
   color:white;
@@ -79,3 +79,32 @@ input {
   height: 25px;
   width: 30px;
 }
+
+#humanname {
+  text-shadow: 2px 2px;
+
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+#animation{
+
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.content {
+    height: 50%;
+    width: 50%;
+    background-color: gray;
+} 
